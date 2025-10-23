@@ -34,5 +34,8 @@ Depending on the argument you give:
 
 ## 🖥️ Automation script 
 
-// IN PROCESS //
+// IN PROGRESS //
 
+## 🎚️ Knob LVGL code 
+
+// IN PROGRESS //
