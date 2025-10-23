@@ -24,6 +24,14 @@ Devia-knob is a home-made volume controller for Devialet speakers. It connects t
 4. Volume changes are sent to: `POST /ipcontrol/v1/systems/{systemId}/sources/current/soundControl/volume`
 5. LVGL draws a circular gauge reflecting the current volume, and the rotary encoder updates it smoothly.
 
+## 🔧 How devialet_volume.sh works:
+It sends HTTP POST requests to the speaker’s IP address and system ID using curl.
+Depending on the argument you give:
+- up → increases the volume
+- down → decreases the volume
+- a number (e.g., 45) → sets the volume to that percentage
+- get → retrieves and displays the current volume using jq for JSON formatting
+
 ## 🖥️ Automation script 
 
 // IN PROCESS //
